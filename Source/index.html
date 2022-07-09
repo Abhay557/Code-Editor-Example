@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Basic Code Editor Example</title>
+        
+        <link rel="stylesheet" href="/css/fonts.css">
+        <link rel="stylesheet" href="/css/style.css">
+
+    </head>
+
+    <body>
+        
+        <script type="text/javascript" src="/js/functions.js"></script>
+         <button class="button button1" onclick="window.location.reload();">Clear</button>
+        
+        <button class="button button1" onclick="copy()">Copy Code</button> 
+         <button class="button button1" onclick="download()">Download</button>  
+        <div class="main">
+            <textarea id="editor-textarea" onkeyup="atualizar()" placeholder="Write Your Html Here"></textarea>
+            <iframe id ="viewer"></iframe>
+        </div>
+        
+        <div class="tres"></div>
+    
+    </body>
+
+</html>
